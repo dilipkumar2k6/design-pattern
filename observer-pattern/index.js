@@ -1,5 +1,14 @@
-class MobilePhone {
+class Subject {
+  register(){
+    throw new Error('Needs to override');
+  }
+  notify(){
+    throw new Error('Needs to override');
+  }
+}
+class MobilePhone extends Subject{
   constructor() {
+    super();
     this.lett = 0;
     this.long = 0;
     this.observers = [];

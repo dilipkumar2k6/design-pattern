@@ -1,4 +1,6 @@
 # What problems can the Composite design pattern solve?
+- It is a structural design pattern
+- It lets you compose objects into tree structures and then work with these structures as if they were individual objects.
 - It solves recursive design problems
 - Define `Part`
 - Define `Whole`
